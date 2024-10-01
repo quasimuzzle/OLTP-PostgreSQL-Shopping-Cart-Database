@@ -1,2 +1,13 @@
-# -OLTP-PostgreSQL-Shopping-Cart-Database-
-Shopping Cart Database  (OLTP, PostgreSQL)
+## Технология OLTP (Online Transaction Processing) 
+Описываемая базой данных предметная область – электронная корзина покупателя
+###Выделенные сущности:
+User – пользователь 
+Order – заказ
+OrderHistory – хранение истории статусов заказов
+Product – товар
+OrderItem – состав заказа
+PickupPoint – пункт выдачи
+CourierService – курьерская служба
+TransactionLog – хранение логов транзакций 
+ErrorLog – хранение логов ошибок
+UserRole – роли пользователей (экземпляры сущности: покупатель, администратор, менеджер по продажам, гость, разработчик)
